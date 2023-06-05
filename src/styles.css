@@ -1,0 +1,27 @@
+#app {
+  display: flex;
+  width: 400px;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0, 20px;
+}
+
+#addProgressBtn {
+  margin: 20px 0;
+}
+
+.progress__bar {
+  width: 300px;
+  margin-bottom: 10px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+.my__bar {
+  width: 0;
+  height: 20px;
+  background-color: lightgreen;
+}
